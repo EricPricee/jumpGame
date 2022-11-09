@@ -1,3 +1,6 @@
+function start () {
+    location.reload();
+}
 var characater =
 document.getElementById("character");
 var block = document.getElementById("block");
@@ -23,6 +26,9 @@ var checkDead = setInterval(function(){
         characterTop>=130){
             block.style.animation ="none";
             block.style.display = "none";
-            alert("😈 hahaaaaaaaa you lost! 👺.")
+            alert("😈 hahaaaaaa yo dumb ass lost! 👺.")
         }
+
+    let gameOver = false;
+    function endGame(loser) {}
 },10);
