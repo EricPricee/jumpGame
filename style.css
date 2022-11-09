@@ -5,11 +5,9 @@
 
 #game{
     width: 500px;
-    height: 200px;
+    height: 700px;
     border: 1px solid blueviolet;
 }
-
-
 
 #character{
     width: 20px;
@@ -31,9 +29,10 @@
 }
 
 #block{
+    background-image: url();
     width: 20px;
     height: 20px;
-    background-color: limegreen;
+    background-color: whitesmoke;
     position: relative;
     top: 130px;
     left: 480px;
@@ -48,8 +47,10 @@
 body {
     background-color: black;
 }
+ body {
+    background-image:url(../images/jpg/spacejump.jpeg);
+ }
 
 h1 {
     color: rgb(0, 208, 255);
 }
-
